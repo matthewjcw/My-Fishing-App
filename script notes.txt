@@ -1,0 +1,5 @@
+//Script.js the app one page behavior
+//Why?
+//App isn't very large, so downloading all of the data up front isn't very taxing. Allows user actions to get a response swiftly
+//What about when the app gets big?
+//Will become taxing for users with bad band width (particularly users on the water) and make it difficult to 
