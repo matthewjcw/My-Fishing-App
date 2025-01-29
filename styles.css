@@ -1,57 +1,57 @@
 html, body {
   height: 100%;
-  margin: 0; /* Remove default margins */
+  margin: 0; 
 }
 
 body {
   display: flex;
-  flex-direction: column; /* Stack content vertically */
+  flex-direction: column; 
 }
 
 main {
-  flex: 1; /* This will take up any remaining space */
+  flex: 1; 
 }
 
-/* General reset for body and nav */
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
 }
 
 nav {
-  background-color: #004080; /* A deep blue, like the ocean */
+  background-color: #004080; 
   padding: 1rem;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 nav ul {
-  list-style: none; /* Remove bullet points */
-  display: flex; /* Align items horizontally */
-  justify-content: center; /* Center the navigation */
+  list-style: none; 
+  display: flex; 
+  justify-content: center; 
   margin: 0;
   padding: 0;
 }
 
 nav ul li {
-  margin: 0 1rem; /* Spacing between links */
+  margin: 0 1rem; 
 }
 
 nav ul li a {
-  text-decoration: none; /* Remove underline */
-  color: white; /* White text for contrast */
-  font-size: 1.2rem; /* Increase font size */
-  padding: 0.5rem 1rem; /* Add padding for clickable area */
-  border-radius: 5px; /* Rounded corners */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem; 
+  padding: 0.5rem 1rem; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease; 
 }
 
 nav ul li a:hover {
-  background-color: #0066cc; /* Light blue background on hover */
+  background-color: #0066cc; 
 }
 
 nav ul li a.active {
-  background-color: #003366; /* Darker blue for active link */
-  font-weight: bold; /* Highlight active link */
+  background-color: #003366; 
+  font-weight: bold; 
 }
 
 #fishing-log-submit {
@@ -69,15 +69,15 @@ nav ul li a.active {
 
 /* Footer Styles */
 footer {
-  background-color: #f8f8f8; /* Light gray background */
-  padding: 1rem; /* Padding around the text */
-  text-align: center; /* Center the text */
-  font-size: 0.9rem; /* Slightly smaller font */
-  color: #333; /* Dark gray text for good contrast */
-  margin-top: 2rem; /* Add space between footer and page content */
-  border-top: 1px solid #ddd; /* Light border at the top */
+  background-color: #f8f8f8; 
+  padding: 1rem; 
+  text-align: center; 
+  font-size: 0.9rem; 
+  color: #333; 
+  margin-top: 2rem; 
+  border-top: 1px solid #ddd; 
 }
 
 footer p {
-  margin: 0; /* Remove margin around the text */
+  margin: 0;  
 }
