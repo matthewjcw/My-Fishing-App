@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 //Event listener for navigation bar elements
 document.addEventListener("DOMContentLoaded", () => {
     const app = document.getElementById("app");

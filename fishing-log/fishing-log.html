@@ -19,31 +19,39 @@
       </nav>
 
   <main id="app">
-    <h2>Fishing Log</h2>
-    <p>Add the data from your cast:</p>
-    <form>
-      <div class="input-group">
-          <p>Species</p>
-          <input type="text" name="species" placeholder="Enter the species">
+    <div id="log-form">
+      <h2>Fishing Log</h2>
+      <p>Add the data from your cast:</p>
+      <form>
+        <div class="input-group">
+            <p>Species</p>
+            <input type="text" name="species" placeholder="Enter the species">
+        </div>
+        <div class="input-group">
+            <p>Weight (lbs)</p>
+            <input type="text" name="weight" placeholder="Enter the weight">
+        </div>
+        <div class="input-group">
+            <p>Location</p>
+            <input type="text" name="location" placeholder="Enter the location">
+        </div>
+        <div class="input-group">
+            <p>Lure Used</p>
+            <input type="text" name="lure" placeholder="Enter the lure">
+        </div>
+        <div class="input-group">
+          <p>Date Caught</p>
+          <input type="date" name="date">
       </div>
-      <div class="input-group">
-          <p>Weight (lbs)</p>
-          <input type="text" name="weight" placeholder="Enter the weight">
-      </div>
-      <div class="input-group">
-          <p>Location</p>
-          <input type="text" name="location" placeholder="Enter the location">
-      </div>
-      <div class="input-group">
-          <p>Lure Used</p>
-          <input type="text" name="lure" placeholder="Enter the lure">
-      </div>
-      <div class="input-group">
-        <p>Date Caught</p>
-        <input type="date" name="date">
+        <button id="fishing-log-submit" type="submit">Submit</button>
+    </form>
     </div>
-      <button id="fishing-log-submit" type="submit">Submit</button>
-  </form>
+    <div id="data">
+      <table>
+        
+      </table>
+    </div>
+    
   </main>
   <script src="fishing-log.js"></script>
   <footer>
